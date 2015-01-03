@@ -1,0 +1,37 @@
+.topmenu {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 5px solid $blue;
+    box-shadow: 0px 2px 15px $darkgray;
+    background-color: $lightgray;
+    
+    .topmenu-container {
+        position: absolute;
+        top: 39px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+         float: left;
+         cursor: pointer;
+        a {
+            display: block;
+            margin: -5px 10px 0 10px;
+            padding: 0 10px 0 10px;
+            line-height: 25px;
+            font-size: 18px;
+            color: #6C6C6C;
+            &:hover { 
+                border-bottom: 5px solid $yellow;
+            }
+            &.active {
+                border-bottom: 5px solid $yellow;
+            }
+        }
+    }
+}

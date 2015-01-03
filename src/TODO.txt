@@ -1,0 +1,18 @@
+TODO:
+
+links naar campings
+design externe links
+links naar overige info sites
+plaatje (navigatie) met tijdslijn per dag boven dagboek.
+overzichts kaartje van Vennbahn, clickable link 
+overzichts kaartje van Groene weg 'ons stuk', clickable link.
+betere oplossing voor foto's
+responsive
+footer altijd beneden
+accordeon met meerdere panels
+
+Dag 1 t/m 3 doorlezen
+Dag 4 t/m 8 invullen
+
+http://www.eastbelgium.com/fr/loisirs/velo/ravel/parcours/l48-st-vith-waimes/
+ 

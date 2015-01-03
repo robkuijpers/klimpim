@@ -1,0 +1,8 @@
+{
+  "name": "project",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "angular": "~1.2.17",
+    "gsap": "~1.15.0"
+  }
+}

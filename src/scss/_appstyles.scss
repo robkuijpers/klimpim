@@ -1,0 +1,174 @@
+/* All app scss styles go here */
+
+/* Constants */
+
+$blue: #0077B4;
+$yellow: #FAC637;
+$gray: #AAAAAA;
+$darkgray: #333333;
+$lightgray: #F0F0F0;
+$middlegray: #686868;
+
+/* Element styles */
+
+ul {
+    list-style-type: none;
+}
+
+p { 
+   line-height: 1.7em;
+    color: $middlegray;
+}
+
+/* Classes */
+
+body {
+    background: rgba(255,255,255,1.0);
+}
+
+.site-title {
+    font-size: 2.50rem;    
+    color: $blue;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.page-title {
+    font-size: 1.7rem;
+    text-align: left;
+    color: $blue;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;    
+} 
+
+.paragraph-title {
+    font-family: Helvetica;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    text-align: left;
+    color: $middlegray;
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    margin-left: 0; 
+    margin-right: 210px;
+    padding: 10px;
+    border-top: 3px solid $blue; 
+    box-shadow: 2px 2px 6px $gray;
+} 
+
+.article {
+    color: $middlegray;
+    background-color: $lightgray;
+    padding: 0;
+    p {
+        margin: 20px;
+        padding-bottom: 15px;
+    }
+    .title {
+        color: white;
+        background-color: $blue;
+        border-bottom: 3px solid $yellow;
+        span {
+            display: inline-block;
+            font-size: 1.2em;
+            margin: 26px;
+        }
+        a {
+            margin: 15px;    
+        }
+    }
+    .readnextimage {
+        transition: width .25s ease-in-out;  
+        margin-top: 7px;
+        width: 28px;
+        &:hover {
+            width: 34px;
+        }
+    }
+}
+
+.shadow {
+    box-shadow: 2px 2px 8px $gray;
+    &:hover {
+        box-shadow: 4px 4px 10px $gray;
+    }
+}
+
+.accordeon {
+    >header {
+        &:hover {
+            cursor: pointer;
+        }
+        img {
+            width: 30px;
+        }
+    }
+    >div {
+        overflow: hidden;
+    }
+    .closed {
+        height: 0;
+    }
+}
+
+.internal-link {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.external-link {
+    &:after {
+        content: url(../images/externallink.gif);
+    }
+}
+
+.site-list {
+    margin-left: 0;
+    li {
+        background-color: $lightgray;
+        box-shadow: 2px 2px 2px #D0D0D0;
+        padding: 3px 0 3px 7px;
+        margin: 5px;
+        background-repeat: no-repeat;
+        background-image: url(../images/arrowright2y.svg);
+        background-position: right;
+        background-size: contain;
+    }
+    a {
+        display: block;
+        padding: 3px;
+    }
+}
+
+.route-table {
+    width: 100%;
+    border: none;
+    thead {
+        border-bottom: 1px solid $gray;
+    }
+}
+
+.page-nagivgation {
+    height: 60px;
+    margin-top: 20px;
+    img {
+      width: 36px;       
+      transition: width .5s ease-in-out;  
+        &:hover {
+            width: 44px;
+        }
+    }
+    
+}
+
+.footer {
+    color: $gray;
+    background: $lightgray;
+    margin-top: 10px;
+    border-top: 1px solid #CACACA;
+    padding: 20px 0 20px 0;
+}
