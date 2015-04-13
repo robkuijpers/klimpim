@@ -172,6 +172,6 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['serve']);
 	grunt.registerTask('serve', ['assemble', 'sass', 'wiredep', 'connect:dev', 'watch']);
-	grunt.registerTask('dist', ['clean:dist', 'assemble', 'sass', 'wiredep', 'jshint', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
+	grunt.registerTask('dist', ['clean:dist', 'assemble', 'sass', 'wiredep', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
 
 };
